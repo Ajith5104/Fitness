@@ -1,5 +1,5 @@
 import React from "react";
-import enquiry from "../assets/contact.png";
+import contact from "../assets/contact.png";
 function Contact() {
   return (
     <section id="contact">
@@ -10,7 +10,7 @@ function Contact() {
         <div className="col-12 col-md-6 py-2" data-aos="zoom-in-down">
           <img
             className="enquiry-img img-fluid rounded"
-            src={enquiry}
+            src={contact}
             alt="enquiry Us"
           />
         </div>

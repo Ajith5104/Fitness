@@ -5,7 +5,6 @@ import Header from "./components/Header";
 import Home from "./components/Home";
 import Services from "./components/Services";
 import About from "./components/About";
-// import Plans from "./components/Plans";
 import Review from "./components/Reviews";
 import Footer from "./components/Footer";
 import Contact from "./components/contact";
