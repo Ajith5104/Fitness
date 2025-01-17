@@ -1,7 +1,7 @@
 import React from "react";
 import Img1 from '../assets/Physical-Fitness.jpg'
 import Img2 from '../assets/Weight-Gain.jpg'
-import Img3 from '../assets/Strength-training.jpg'
+import strengthImage from '../assets/Strength-training.jpg'; 
 import Img4 from '../assets/Fat-Loss.jpg'
 import Img5 from '../assets/Weight-lifting.jpg'
 import Img6 from '../assets/Running.jpg'
@@ -25,7 +25,7 @@ const Service = () => {
         </div>
 
         <div className="rows">
-          <img src={Img3} alt="Strength Training" />
+          <img src={strengthImage} alt="Strength Training" />
           <h4>Strength Training</h4>
         </div>
 
