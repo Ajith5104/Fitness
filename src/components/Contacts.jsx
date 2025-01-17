@@ -1,5 +1,5 @@
 import React from "react";
-import contimg from "../assets/contact.png";
+import contimg from "../assets/Contact.png";
 function Contacts() {
   return (
     <section id="contact">
