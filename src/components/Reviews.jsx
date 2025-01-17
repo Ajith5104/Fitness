@@ -1,7 +1,7 @@
 import React from "react";
-import Img1 from "../assets/1.jpg";
-import Img2 from "../assets/2.jpg";
-import Img3 from "../assets/3.jpg";
+import Seetha from "../assets/1.jpg";
+import arun from "../assets/2.jpg";
+import kumar from "../assets/3.jpg";
 const Review = () => {
   return (
     <section id="review" className="review">
@@ -13,7 +13,7 @@ const Review = () => {
         <div className="wrapper" data-aos="zoom-in-up">
           {/* Review 1 */}
           <div className="review-item">
-            <img src={Img2} alt="John" />
+            <img src={Seetha} alt="John" />
             <h2>Seetha</h2>
             <div className="rating">
               <i className="bx bxs-star" id="star"></i>
@@ -31,7 +31,7 @@ const Review = () => {
 
           {/* Review 2 */}
           <div className="review-item">
-            <img src={Img1} alt="Steve" />
+            <img src={arun} alt="Steve" />
             <h2>Arun</h2>
             <div className="rating">
               <i className="bx bxs-star" id="star"></i>
@@ -48,7 +48,7 @@ const Review = () => {
 
           {/* Review 3 */}
           <div className="review-item">
-            <img src={Img3} alt="David" />
+            <img src={kumar} alt="David" />
             <h2>Kumar</h2>
             <div className="rating">
               <i className="bx bxs-star" id="star"></i>

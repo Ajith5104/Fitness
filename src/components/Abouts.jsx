@@ -1,8 +1,8 @@
 import React from "react";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
-import image1 from "../assets/image1.jpg";
-import image2 from "../assets/image2.jpg";
-import image3 from "../assets/image3.jpg";
+import first from "../assets/image1.jpg";
+import second from "../assets/image2.jpg";
+import thead from "../assets/image3.jpg";
 
 const About = () => {
   return (
@@ -22,21 +22,21 @@ const About = () => {
             <div className="carousel-inner">
               <div className="carousel-item active">
                 <img
-                  src={image1}
+                  src={first}
                   className="d-block w-100"
                   alt="About Us Image 1"
                 />
               </div>
               <div className="carousel-item">
                 <img
-                  src={image2}
+                  src={second}
                   className="d-block w-100"
                   alt="About Us Image 2"
                 />
               </div>
               <div className="carousel-item">
                 <img
-                  src={image3}
+                  src={thead}
                   className="d-block w-100"
                   alt="About Us Image 3"
                 />
