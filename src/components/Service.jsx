@@ -6,7 +6,7 @@ import Img4 from '../assets/Fat-Loss.jpg'
 import Img5 from '../assets/Weight-lifting.jpg'
 import Img6 from '../assets/Running.jpg'
 
-const Services = () => {
+const Service = () => {
   return (
     <section className="services" id="services">
       <h2 className="heading" data-aos="zoom-in-down">
@@ -48,7 +48,7 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default Service;
 
 
 

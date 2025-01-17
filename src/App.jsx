@@ -3,7 +3,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Header from "./components/Header";
 import Home from "./components/Home";
-import Services from "./components/Services";
+import Service from "./components/Service";
 import Review from "./components/Reviews";
 import Footer from "./components/Footer";
 import Contacts from "./components/Contacts";
@@ -20,7 +20,7 @@ function App() {
     <div>
       <Header />
       <Home />
-      <Services />
+      <Service />
       <Abouts />
       <Review />
       <Contacts/>
