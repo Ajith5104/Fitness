@@ -4,7 +4,7 @@ import Aimg1 from "../assets/image1.jpg";
 import Aimg2 from "../assets/image2.jpg";
 import Aimg3 from "../assets/image3.jpg";
 
-const About = () => {
+const Abouts = () => {
   return (
     <section id="about" className="about-section">
       <h2 className="heading text-center" data-aos="zoom-in-down">
@@ -92,4 +92,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Abouts;
