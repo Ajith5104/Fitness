@@ -1,6 +1,6 @@
 import React from "react";
 import enquiry from "../assets/contact.png";
-function Enquiry() {
+function Contact() {
   return (
     <section id="contact">
       <h2 className="heading text-center" data-aos="zoom-in-down">
@@ -102,4 +102,4 @@ function Enquiry() {
   );
 }
 
-export default Enquiry;
+export default Contact;
