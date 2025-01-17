@@ -1,8 +1,8 @@
 import React from "react";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
-import first from "../assets/image1.jpg";
-import second from "../assets/image2.jpg";
-import thead from "../assets/image3.jpg";
+import first from "../assets/first.jpg";
+import second from "../assets/second.jpg";
+import thead from "../assets/thead.jpg";
 
 const About = () => {
   return (
