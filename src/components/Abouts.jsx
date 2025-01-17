@@ -1,10 +1,10 @@
 import React from "react";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
-import Aimg1 from "../assets/image1.jpg";
-import Aimg2 from "../assets/image2.jpg";
-import Aimg3 from "../assets/image3.jpg";
+import image1 from "../assets/image1.jpg";
+import image2 from "../assets/image2.jpg";
+import image3 from "../assets/image3.jpg";
 
-const Abouts = () => {
+const About = () => {
   return (
     <section id="about" className="about-section">
       <h2 className="heading text-center" data-aos="zoom-in-down">
@@ -22,21 +22,21 @@ const Abouts = () => {
             <div className="carousel-inner">
               <div className="carousel-item active">
                 <img
-                  src={Aimg1}
+                  src={image1}
                   className="d-block w-100"
                   alt="About Us Image 1"
                 />
               </div>
               <div className="carousel-item">
                 <img
-                  src={Aimg2}
+                  src={image2}
                   className="d-block w-100"
                   alt="About Us Image 2"
                 />
               </div>
               <div className="carousel-item">
                 <img
-                  src={Aimg3}
+                  src={image3}
                   className="d-block w-100"
                   alt="About Us Image 3"
                 />
@@ -92,4 +92,4 @@ const Abouts = () => {
   );
 };
 
-export default Abouts;
+export default About;

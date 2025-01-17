@@ -7,7 +7,7 @@ import Service from "./components/Service";
 import Review from "./components/Reviews";
 import Footer from "./components/Footer";
 import Contacts from "./components/Contacts";
-import Abouts from "./components/Abouts";
+import About from "./components/Abouts";
 
 
 AOS.init({
@@ -21,7 +21,7 @@ function App() {
       <Header />
       <Home />
       <Service />
-      <Abouts />
+      <About/>
       <Review />
       <Contacts/>
       <Footer />
