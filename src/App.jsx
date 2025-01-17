@@ -9,7 +9,6 @@ import Footer from "./components/Footer";
 import Contacts from "./components/Contacts";
 import About from "./components/Abouts";
 
-
 AOS.init({
   offset: 150,
   duration: 800,
@@ -21,9 +20,9 @@ function App() {
       <Header />
       <Home />
       <Service />
-      <About/>
+      <About />
       <Review />
-      <Contacts/>
+      <Contacts />
       <Footer />
     </div>
   );

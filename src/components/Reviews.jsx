@@ -1,6 +1,6 @@
 import React from "react";
-import Seetha from "../assets/1.jpg";
-import arun from "../assets/2.jpg";
+import arun from "../assets/1.jpg";
+import Seetha from "../assets/2.jpg";
 import kumar from "../assets/3.jpg";
 const Review = () => {
   return (

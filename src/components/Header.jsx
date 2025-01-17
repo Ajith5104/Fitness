@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -42,11 +41,11 @@ const Header = () => {
         </li>
       </ul>
 
-      {/* <div className="top-btn">
+      <div className="top-btn">
         <a href="#contact" className="nav-btn">
-          Enquiry
+          Join Us
         </a>
-      </div> */}
+      </div>
     </header>
   );
 };
