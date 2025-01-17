@@ -1,6 +1,6 @@
 import React from "react";
 import contact from "../assets/contact.png";
-function Contact() {
+function Contacts() {
   return (
     <section id="contact">
       <h2 className="heading text-center" data-aos="zoom-in-down">
@@ -102,4 +102,4 @@ function Contact() {
   );
 }
 
-export default Contact;
+export default Contacts;

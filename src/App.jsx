@@ -7,7 +7,8 @@ import Services from "./components/Services";
 import About from "./components/About";
 import Review from "./components/Reviews";
 import Footer from "./components/Footer";
-import Contact from "./components/contact";
+import Contacts from "./components/Contacts";
+
 
 AOS.init({
   offset: 150,
@@ -21,9 +22,8 @@ function App() {
       <Home />
       <Services />
       <About />
-      {/* <Plans /> */}
       <Review />
-      <Contact/>
+      <Contacts/>
       <Footer />
     </div>
   );
